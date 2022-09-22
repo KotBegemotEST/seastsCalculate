@@ -131,6 +131,11 @@ namespace seatsCalculate
             label9.Text = "$00.00";
             label10.Text = "$00.00";
             label11.Text = "$00.00";
+
+            field1 = 0;
+            field2 = 0;
+            field3 = 0;
+            summ = 0;
         }
     }
 }
