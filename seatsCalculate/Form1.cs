@@ -62,17 +62,17 @@ namespace seatsCalculate
 
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-            field1 = Int16.Parse(textBox1.Text);
+            field1 = Int32.Parse(textBox1.Text);
         }
 
         private void textBox2_TextChanged(object sender, EventArgs e)
         {
-            field2 = Int16.Parse(textBox2.Text);
+            field2 = Int32.Parse(textBox2.Text);
         }
 
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
-            field3 = Int16.Parse(textBox3.Text);
+            field3 = Int32.Parse(textBox3.Text);
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -123,9 +123,9 @@ namespace seatsCalculate
 
         private void button2_Click(object sender, EventArgs e)
         {
-            textBox1.Text = String.Empty;
-            textBox2.Text = String.Empty;
-            textBox3.Text = String.Empty;
+            textBox1.Text = "0";
+            textBox2.Text = "0";
+            textBox3.Text = "0";
 
             label8.Text = "$00.00";
             label9.Text = "$00.00";
