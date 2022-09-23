@@ -80,25 +80,25 @@ namespace seatsCalculate
             if (field1 != 0 )
             {
                 int fieldOneSumm = (field1 * 15);
-                label8.Text = "$" +  fieldOneSumm.ToString();
+                label8.Text = "$" +  fieldOneSumm.ToString("n2");
 
                 summ += (field1 * 15);
             }
             if (field2 != 0)
             {
                 int fieldTwoSumm = (field2 * 12);
-                label9.Text = "$" + fieldTwoSumm.ToString();
+                label9.Text = "$" + fieldTwoSumm.ToString("n2");
 
                 summ +=(field2 * 12);
             }
             if (field3 != 0)
             {
                 int fieldThreeSumm = (field3 * 9);
-                label10.Text = "$" + fieldThreeSumm.ToString();
+                label10.Text = "$" + fieldThreeSumm.ToString("n2");
 
                 summ +=(field3 * 9);
             }
-            label11.Text = "$" + summ.ToString();
+            label11.Text = "$" + summ.ToString("n2");
         }
 
         private void label8_Click(object sender, EventArgs e)
